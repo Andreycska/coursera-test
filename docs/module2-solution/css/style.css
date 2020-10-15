@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Sansita Swashed', cursive;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 1.75em;
+    margin: 2em auto 0;
+    text-align: center;
+}
+
+.content {
+    margin-top: 4em;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 .5em 0;
+    margin: 0 auto;
+}
+
+.content__card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content__item {
+    width: 32%;
+    border: .13em solid #333;
+    background-color: #999;
+}
+
+.content__title {
+    margin: 0;
+
+    float: right;
+
+    display: block;
+    width: 40%;
+
+    text-align: center;
+    border-bottom: .13em solid #333;
+    border-left: .13em solid #333;
+    background-color: #d59898;
+    padding: .2em 0 .2em;
+
+    font-size: 1.25em;
+}
+
+.content__title-beef {
+    background-color:#c14543;
+    color: #fff;
+}
+
+.content__title-sushi {
+    background-color: #e5d198;
+}
+
+.content__text {
+    clear: right;
+    padding: .7em 1em .7em;
+}
+
+@media (max-width: 991px) {
+
+    .title {
+        font-size: 1.75em;
+        margin: 1.5em auto 0;
+        text-align: center;
+    }
+
+    .content {
+        margin-top: 3em;
+    }
+
+    .content__item  {
+        width: 49%;
+        margin-bottom: 1em;
+    }
+
+    .content__item.content__item-sushi {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .content__item  {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .title {
+        font-size: 1.75em;
+        margin: 1em auto 0;
+        text-align: center;
+    }
+
+    .content {
+        margin-top: 2em;
+    }
+}
