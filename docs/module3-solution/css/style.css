@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Sansita Swashed', cursive;
+    color: #333;
+}
+
+/************************Header****************************************************/
+
+.header {
+    font-family: 'Lato', sans-serif;
+}
+
+/************************Menu****************************************************/
+
+.navbar {
+    background-color: blue;
+}
+
+.navbar-brand {
+    color: #fff;
+    transition: color .2s linear;
+}
+
+.navbar > a:hover {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    transition: all .2s linear;
+}
+
+.nav-link:hover {
+    color: #f97300;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+
+/************************Intro****************************************************/
+
+.intro {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 10%;
+}
+
+.title {
+    margin-bottom: .7em;
+}
+
+/************************Colum****************************************************/
+
+.tile {
+    margin-bottom: 1em;
+}
+
+.intro__item{
+    background-color: #999;
+}
+
+.intro__title {
+    display: block;
+    margin: 0 auto .5em;
+    padding: 0 0 .2em 0;
+    width: 50%;
+
+    font-weight: 700;
+
+    background-color: #d59898;
+}
+
+.intro__title-beef {
+    background-color:#c14543;
+    color: #fff;
+}
+
+.intro__title-sushi {
+    background-color:#e5d198;
+}
+
+.intro_text {
+    padding: 0 1em 1em;
+}
