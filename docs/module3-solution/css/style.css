@@ -25,13 +25,36 @@ body {
     color: #fff;
 }
 
+.nav-item--top {
+    margin-top: 15px;
+}
+
 .nav-link {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
     color: #fff;
+    border-top: 2px solid #ccc;
     transition: all .2s linear;
 }
 
-.nav-link:hover {
-    color: #f97300;
+.nav-link--bottom {
+    border-bottom: 2px solid #ccc;
+}
+
+.nav-link.nav-link--top:hover, .nav-link.nav-link--top:active, .nav-link.nav-link--top:focus {
+    background-color: #d59898;
+    color: #333;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+    background-color: #c14543;
+    color: #fff;
+}
+
+.nav-link.nav-link--bottom:hover, .nav-link.nav-link--bottom:active, .nav-link.nav-link--bottom:focus {
+    background-color: #e5d198;
+    color: #333;
 }
 
 .navbar-collapse {
@@ -45,8 +68,6 @@ body {
 .custom-toggler.navbar-toggler {
     border-color: rgb(255,255,255);
 }
-
-/************************Intro****************************************************/
 
 .intro {
     position: absolute;
