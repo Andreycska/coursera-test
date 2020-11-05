@@ -13,6 +13,8 @@
   </head>
 <body>
 
+<div class="page"><!--Чтобы прижать футер к низу и чтобы не было горизонтального скрола-->
+
 <!--Header------------------------------------------------------------------------------>
 
 <header>
@@ -72,62 +74,13 @@
     </div>
 </div>
 
-<!--Intro---------------------------------------------------------------------------->
+<!--Main-content(intro and menu)------------------------------------------------------>
 
-<div class="intro">
-    <div class="container">
-        <div class="jumbotron">
-            <img src="img/jumbotron_768.jpg" alt="Picture of restaurant" class="img-fluid rounded mx-auto d-block d-block d-sm-none">
-        </div>
-    </div>
-</div>
-
-<!--menu tile---------------------------------------------------------------------------->
-
-<div class="tile">
-    <div class="container">
-        <div class="row justify-content-between">
-
-            <div class="col-md-4 col-sm-6 col-12">
-                <div class="tile__item">
-                    <a href="menu-catigories.html">
-                        <img class="img-fluid rounded mx-auto d-block" src="img/menu-tile.jpg" alt="menu">
-                        <div class="tile__categories">
-                            <span>Menu</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 col-12">
-                <div class="tile__item">
-                    <a href="">
-                        <img class="img-fluid rounded mx-auto d-block" src="img/specials-tile.jpg" alt="menu">
-                        <div class="tile__categories">
-                            <span>specials</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12 col-12">
-                <div class="tile__item">
-                    <a href="https://goo.gl/maps/cZD4JhGqDNvG411z9" target="_blank">
-                        <img class="img-fluid rounded mx-auto d-block" src="img/map_position.jpg" alt="menu">
-                        <div class="tile__categories">
-                            <span>map</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-        </div><!--/row-->
-    </div><!--/container-->
-</div><!--/tile-->
+<div id="main-content" class="container"></div>
 
 <!--Footer---------------------------------------------------------------------------->
 
-<footer class="panel panel-default">
+<footer class="panel panel-default footer">
     <div class="container">
       <div class="row">
         <section class="hours col-sm-4">
@@ -153,11 +106,14 @@
     </div>
   </footer>
 
+</div><!-- Page -->
+
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
